@@ -6,6 +6,9 @@ on:
     branches:
       - main
   # pull_request event is required only for autolabeler
+  # autolabeler 를 실행시킬 pull_request 이벤트를 설정
+  pull_request:
+    types: [opened, reopened, synchronize]
 
 permissions:
   contents: read
