@@ -35,5 +35,4 @@ autolabeler:
 template: |
   ## Changes
 
-
   $CHANGES
